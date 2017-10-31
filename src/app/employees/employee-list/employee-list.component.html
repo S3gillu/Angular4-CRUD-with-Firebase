@@ -1,5 +1,5 @@
 <ul class="list-group hover">
   <li class="list-group-item" *ngFor="let employee of employeelist" (click)="onItemClick(employee)">
-    {{employee.name}} - {{employee.position}}
+    <strong style="color:orange;">{{employee.name}} :- </strong>{{employee.position}} 
   </li>
 </ul>
