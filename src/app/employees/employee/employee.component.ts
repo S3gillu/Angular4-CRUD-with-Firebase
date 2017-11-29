@@ -10,7 +10,7 @@ import { EmployeeService } from '../shared/employee.service';
 })
 export class EmployeeComponent implements OnInit {
 
-  constructor(private employeeService: EmployeeService) { }
+  constructor(public employeeService: EmployeeService) { }
 
   ngOnInit() {
     this.resetForm();
